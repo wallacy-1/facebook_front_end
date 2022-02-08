@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/home/home.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#more_icon_a,#less_icon_a").click(function(){
+            $(".aside-extra-options,#more_icon_a,#less_icon_a").toggle();
+            return false;
+        })
+    });
+    </script>                
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="container-search">
+                <div class="icon-container">
+                    <img src="img/facebook_icon.svg" alt="">
+                </div>
+                <div class="input-search-container">
+                    <img src="img/lupa_icon.svg" alt="">
+                    <input type="text" class="input-search" name="" id="" placeholder="Pesquisar no Facebook">
+                </div>
+            </div>
+            <div class="nav-menu">
+                <a href="" class="a-selected" title="teste"><img src="img/home_blue.svg" alt=""></a>
+                <a href=""><img src="img/friends.svg" alt=""></a>
+                <a href=""><img src="img/video.svg" alt=""></a>
+                <a href=""><img src="img/market.svg" alt=""></a>
+                <a href=""><img src="img/group.svg" alt=""></a>
+            </div>
+            <div class="container-user">
+                <div class="container-user-photo-name">
+                    <a href=""> <img src="img/user_photo.png" alt=""> Wallacy </a>
+                </div>
+                <a href="" class="user-option"><img src="img/more.svg" alt=""></a>
+                <a href="" class="user-option"><img src="img/mensager.svg" alt=""></a>
+                <a href="" class="user-option"><img src="img/bell.svg" alt=""></a>
+                <a href="" class="user-option"><img src="img/arrow_down.svg" alt=""></a>
+            </div>
+        </nav>
+    </header>
+    <main class="main-content">
+        <aside class="aside-left text-font-css">
+            <div class="aside-scroll">
+                <a href=""><img src="img/user_photo.png" alt="foto de perfil"><span>Wallacy</span></a>
+                <a href=""><img src="img/aside_icons/find_friend_color.png" alt="icone com 2 pessoas"><span>Encontrar amigos</span></a>
+                <a href=""><img src="img/aside_icons/group_color.png" alt="icone de grupo"><span>Grupos</span></a>
+                <a href=""><img src="img/aside_icons/market_color.png" alt="icone de loja"><span>Marketplace</span></a>
+                <a href=""><img src="img/aside_icons/video_color.png" alt="icone de video"><span>Watch</span></a>
+                <a href=""><img src="img/aside_icons/clock.png" alt="icone de relogio"><span>Lembranças</span></a>
+                <a href=""><img src="img/aside_icons/cape_color.png" alt="icone de capa"><span>Salvos</span></a>
+                <a href=""><img src="img/aside_icons/flag_color.png" alt="icone de bandeira"><span>Páginas</span></a>
+                <a href=""><img src="img/aside_icons/events_color.png" alt="icone de eventos com uma estrela no meio"><span>Eventos</span></a>
+                <a href=""><img src="img/aside_icons/recent_color.png" alt="icone com um relogio"><span>Mais recentes</span></a>
+                <a href=""><img src="img/aside_icons/star_color.png" alt="icone de estrela"><span>Favoritos</span></a>
+                <a href="" class="aside-extra-icon" id="more_icon_a" ><img src="img/aside_icons/arrow_down_type2.svg" alt=""><span>Ver mais</span></a>
+                
+                <div class="aside-extra-options" style="display:none">
+                    <a href=""><img src="img/aside_icons/help_comunity_icon.png" alt="icone com uma mão segurando um coração"><span>Ajuda da Comunidade</span></a>
+                    <a href=""><img src="img/aside_icons/latest_ads_icon.png" alt="icone azul com pequenas montanhas"><span>Atividade de anúncios recente</span></a>
+                    <a href=""><img src="img/aside_icons/donation_icon.png" alt="icone com um coração no meio"><span>Campanha de arrecadação de fundos</span></a>
+                    <a href=""><img src="img/aside_icons/ad_center_icon.png" alt="icone com um megafone"><span>Central de Anúncios</span></a>
+                    <a href=""><img src="img/aside_icons/climate_icon.png" alt="icone com uma nuvem e o sol atras"><span>Clima</span></a>
+                    <a href=""><img src="img/aside_icons/climate_center.png" alt="icone com uma semente começando a nascer"><span>Clima: Central de Informações</span></a>
+                    <a href=""><img src="img/aside_icons/covid_info.png" alt="icone com 1 laço parecendo com um coração"><span>COVID-19: Central de Informações</span></a>
+                    <a href=""><img src="img/aside_icons/blood_donation.png" alt="icone com uma gota de sangue vermelha"><span>Doações de Sangue</span></a>
+                    <a href=""><img src="img/aside_icons/fb_pay_icon.png" alt="icone parecido com um cartão de credito azul"><span>Facebook Pay</span></a>
+                    <a href=""><img src="img/aside_icons/manager_ad_icon.png" alt="icone com varios retangulos igual a um grafico"><span>Gerenciador de Anúncios</span></a>
+                    <a href=""><img src="img/aside_icons/play_icon.png" alt="icone parecido com um controle"><span>Jogar</span></a>
+                    <a href=""><img src="img/aside_icons/messenger_icon.png" alt="icone com uma nuvem de dialogo e um raio pequeno no meio"><span>Messenger</span></a>
+                    <a href=""><img src="img/aside_icons/messenger_kids_icon.png" alt="icone com uma nuvem de dialogo e um raio pequeno no meio"><span>Messenger Kids</span></a>
+                    <a href=""><img src="img/aside_icons/health_emotional.png" alt="icone com um coração e uma planta dando suporte"><span>Saúde Emocional</span></a>
+                    <a href=""><img src="img/aside_icons/games_video_icon.png" alt="icone com o formato de um G"><span>Vídeo de jogos</span></a>
+                    <a href=""><img src="img/aside_icons/live_video_icon.png" alt="icone com fundo vermelho e a palavra LIVE no centro"><span>Vídeo ao vivo</span></a>
+                    <a href="" class="aside-extra-icon" id="less_icon_a"style="display:none" ><img src="img/aside_icons/arrow-up.svg" alt="seta apontando para cima"><span>Ver menos</span></a>
+                </div>
+
+                <div class="aside-footer">
+                    <ul>
+                        <li><a href="">Privacidade</a> <span> .</span></li>
+                        <li><a href="">Termos</a> <span> .</span></li>
+                        <li><a href="">Publicidade</a> <span> .</span></li>
+                        <li><a href="">Escolhas para anúncios <img src="" alt=""></a> <span> .</span></li>
+                        <li><a href="">Cookies</a> <span> .</span></li>
+                        <li><a href="">Mais</a> <span> .</span></li>
+                    </ul>
+                    <span> Meta © 2022</span>
+                </div>
+            </div>
+        </aside>
+
+        <div class="story-post">
+            <div class="new-story-container">
+                <div class="new-story">
+                    <div class="more-story-icon">
+                        <img src="/img/more_story_icon.svg" alt="">
+                    </div>
+                    <div>
+                        <h4 class="text-font-css">Criar story</h4>
+                        <p>Compartilhe uma foto ou escreva algo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feed-container">
+                <div class="post">
+                    <div class="post-container">
+                        <div class="post-content-1">
+                            <a href=""><img src="img/user_photo.png" alt="" class="post-user-img"></a>
+                            <a href="" class="new-post-a"><span> No que você está pensando, Wallacy? </span></a>
+                        </div>
+                        <div class="row"></div>
+                        <div class="post-content-2 text-font-css">
+                            <a href=""><img src="img/live_video_icon.svg" alt=""> Vídeo ao vivo </a>
+                            <a href=""><img src="img/imgs_icon.svg" alt=""> Foto/vídeo </a>
+                            <a href=""><img src="img/happy_face_icon.svg" alt=""> Sentimento/atividade </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-rooms text-font-css">
+                    <div class="container-rooms">
+                        <a href="" class="new-room-a"> <img src="img/room_icon.png" alt=""> Criar sala</a>
+                    </div>
+                </div>
+
+                <div class="feeds">
+                    <div class="no-feeds">
+                        <span class="text-font-css">Não há mais publicações</span>
+                        <p>Adicione mais amigos para ver mais publicações no seu Feed de Notícias.</p>
+                        <a href="" class="text-font-css">Encontrar amigos</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <aside class="aside-right">
+            <span class="aside-right-text text-font-css">Patrocinado</span>
+            <div class="ad">
+                <img src="img/ad_mercado_livre.png" alt="">
+                <div class="ad-info">
+                    <span class="text-font-css">Mercado Livre</span>
+                    <p>mercadolivre.com.br</p>
+                </div>
+                <a href="" class="ad-report-a"><img src="img/more_ad_info.svg" alt=""></a>
+            </div>
+            <div class="row"></div>
+            <span class="aside-right-text text-font-css">Conversas em grupo</span>
+            <div class="group">
+                <div class="new-group">
+                    <img src="/img/more_story_icon.svg" alt="">
+                    <span>Criar novo grupo</span>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <div class="msg">
+        <img src="img/msg_icon.png" alt="">
+    </div>
+</body>
+
+</html>

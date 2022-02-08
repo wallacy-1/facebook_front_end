@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(240, 242, 245);
+    color: #1c1e21;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.input{
+    padding: 18px;
+    width: 83%;
+    border-radius: 6px;
+    border: solid rgb(221, 223, 226) 1px !important;
+    color: #1c1e21;
+    margin-bottom: 10px;
+}
+
+.container-fb-login .input:focus{
+    outline: none;
+    caret-color: rgb(24, 119, 242);
+    border-color:rgb(24, 119, 242) !important ;
+    box-shadow: 0 0 0 2px rgb(231, 243, 255);
+}
+
+.container-center-login .input {
+    outline: none;
+}
+
+.input::placeholder{
+    font-size: 17px;
+    color: rgb(203, 198, 202);
+}
+
+.input:focus::placeholder{
+    opacity: 0.5;
+}
+
+.button-submit{
+    width: 92%;
+    padding: 13px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: large;
+    background-color: #1877f2;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.button-submit:hover{
+    cursor: pointer;
+    background-color: rgb(22, 111, 229);
+}
+
+.button-green{
+    width: 45%;
+    padding: 14px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: initial;
+    background-color: #42b72a;;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.button-green:hover{
+    cursor: pointer;
+    background-color: rgb(54, 164, 32);
+}
+
+.button-focus:focus{
+    box-shadow: 0px 0px 1px 2px rgb(128, 173, 250);
+    padding: 13px;
+}
+
+.line{
+    margin: 5%;
+    width: 90%;
+    border-top: solid 1px #dadde1;
+}
+
+.a-link{
+    cursor: pointer;
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.a-black-link{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(28, 30, 33);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.a-container{
+    margin-top: 10px;
+}
+
+.a-link:hover, .a-black-link:hover, .list li a:hover{
+text-decoration: underline !important;
+}
+
+.strong-p{
+    font-size: 28px;
+    font-weight: normal;
+    width: 500px;
+}
+
+.container-center-login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 44px;
+}
+
+.container-center-login p {
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 18px;
+}
+
+.container-center-login #login-container{
+    height: 380px !important;
+}
+
+.container-center-login div #facebook-img{
+    width: 74%;
+    height: 100%;
+    margin-left: 42px;
+}
+
+.container-fb-login{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer{
+    background-color: #fff;
+    font-size: 12px;
+    padding: 18px 180px 20px 180px;
+    margin: auto;
+    color: #8a8d91;
+}
+
+.footer .line{
+    margin: 0;
+    width: 100%;
+}
+
+.footer div span{
+    font-size: 11px;
+    padding-left: 4px;
+}
+
+.list{
+    margin: 5px;
+    padding-bottom: 7px;
+}
+
+.list li{
+    display:inline;
+    padding-right: 5px;
+}
+
+.list a {
+    color: #8a8d91;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.more-icon-bt{
+    border: solid 1px #ccd0d5;
+    background-color: #f5f6f7;
+    border-radius: 2px;
+    padding: 0 8px;
+}
+
+.more-icon-bt:hover{
+    background-color: rgb(235, 237, 240);
+}
+
+.more-icon-bt img{
+    width: 9px;
+}
+
+.list-category{
+    line-height: 1.6;
+    padding-top: 5px;
+}
+
+.list-category li {
+    padding-left: 10px;
+}
+
+.list-category li a img {
+    width: 12px;
+}
+
+.pad-rig-0{
+    padding-left: 0 !important;
+}
+
+#container-fb{
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+    height: 250px;
+}
+
+#container-img{
+    width: 300px;
+    margin-bottom: -10px;
+}
+
+#facebook-img{
+    width: 100%;
+    height: 100%;
+    margin-left: -29px;
+}
+
+#login-container{
+    background-color: #fff;
+    width: 400px;
+    height: 340px;
+    border-radius: 6px;
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.2) !important;
+    text-align: center;
+}
+
+#login{
+    padding-top: 16px;
+    width: 100%;
+    height: 100%;
+}
